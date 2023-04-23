@@ -4,11 +4,14 @@
   gap: 52px;
 
 }
-.content{
+.content {
   width: 200px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
-.text{
-  
+.text {
+  text-align: center;
 }
 body {
   font-family: 'Courier New', Courier, monospace;
