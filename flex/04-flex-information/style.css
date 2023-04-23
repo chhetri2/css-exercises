@@ -1,3 +1,6 @@
+/* efficient solution if untoggle 
+body, .text, .content comments */
+
 .items{
   display: flex;
   justify-content: center;
@@ -9,12 +12,19 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-}
+
+/* efficient code */
+/* width: 200px; */
+
+/* efficient code if toggle-comment .text */
 .text {
   text-align: center;
 }
+
 body {
   font-family: 'Courier New', Courier, monospace;
+ /* efficient code */
+  text-align: center;
 }
 
 img {
